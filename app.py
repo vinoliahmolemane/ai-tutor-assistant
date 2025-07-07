@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
+import os
 
 from utils import (
     analyze_essay,
@@ -13,9 +14,12 @@ from utils import (
 
 st.set_page_config(page_title="AI Tutor Assistant", layout="wide")
 st.title("🎓 AI Tutor Assistant")
+import streamlit as st
+import os
 
-# 🔐 Your OpenRouter API key here - replace with your actual key
-api_key = "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"
+#  OpenRouter API key securely
+api_key = st.secrets["OPENROUTER_API_KEY"]
+
 
 # Toggle smart GPT-style feedback
 use_smart = st.checkbox(" Use GPT-style Smart Feedback", value=True)

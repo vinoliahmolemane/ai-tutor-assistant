@@ -17,7 +17,9 @@
  Download full feedback report as a **PDF**
  GPT-generated overall summary of all essays (optional)
 
+## Demo
 
+ [Click here to try the live app](https://ai-tutor-assistant-myx57hjw8aj9mjrcx7a5jp.streamlit.app/)
 
 ## Getting Started
 
